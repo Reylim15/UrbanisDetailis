@@ -44,8 +44,9 @@
 
     .home-content-table h1 {
         font-family: "montserrat-bold", sans-serif;
-        font-size: 12.5rem;
+        font-size: 10.5rem;
         color: white;
+        width: 100vw;
         text-transform: uppercase;
         letter-spacing: .3rem;
         margin: 0 0 .9rem 0;
@@ -96,36 +97,38 @@
     .home-social-list li a:visited {
         color: #FFFFFF;
     }
-#about{
-    position: relative;
-  padding: 4.2rem 0 12rem;
-  background-color: black;
-  min-height: 696px;
-  width: 100vw;
-  text-align: center;
-}
 
-/* #about .about-wrap {
+    #about {
+        position: relative;
+        padding: 1rem 4rem 12rem;
+        background-color: black;
+        min-height: 200px;
+        width: 100vw;
+        text-align: center;
+    }
+
+    /* #about .about-wrap {
   max-width: 900px;
 } */
-#about h3 {
-  font-family: "montserrat-bold", sans-serif;
-  font-size: 1.8rem;
-  line-height: 1.667;
-  color: white;
-  text-transform: uppercase;
-  letter-spacing: .3rem;
-  position: relative;
-}
+    #about h3 {
+        font-family: "montserrat-bold", sans-serif;
+        font-size: 1.8rem;
+        line-height: 1.667;
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: .3rem;
+        position: relative;
+    }
 
-#about h3::before {
-  display: block;
-  content: "";
-  width: 3px;
-  height: 3rem;
-  background-color: rgba(149, 149, 149, 0.7);
-  margin: 0 auto 2.4rem;
-}
+    #about h3::before {
+        display: block;
+        content: "";
+        width: 3px;
+        height: 3rem;
+        background-color: rgba(149, 149, 149, 0.7);
+        margin: 0 auto 2.4rem;
+    }
+
     button.stroke,
     .button.stroke {
         background: transparent !important;
@@ -141,12 +144,18 @@
     }
 
     #about .lead {
-  font-family: "librebaskerville-bold", serif;
-  font-size: 2rem;
-  line-height: 1.4;
-  color: white;
-  margin-top: 6rem;
-}
+        font-family: "librebaskerville-bold", serif;
+        font-size: 25px;
+        line-height: 1.4;
+        color: white;
+        margin-top: 2rem;
+    }
+
+    .pricing{
+        width: 100vw;
+        background-color: white;
+        height: 300px;
+    }
 </style>
 
 <body>
@@ -171,7 +180,7 @@
 
         <ul class="home-social-list">
             <li class="animate-intro">
-                <a href="#"><i class="fa fa-facebook-square"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
             </li>
             <li class="animate-intro">
                 <a href="#"><i class="fa fa-twitter"></i></a>
@@ -205,15 +214,8 @@
                         mattis. Rhoncus mattis rhoncus urna neque viverra. Eget mi proin sed libero enim sed. Cursus
                         euismod
                         quis viverra nibh. Habitant morbi tristique senectus et netus et malesuada. Nunc scelerisque
-                    
-                        diam maecenas sed enim ut sem. Volutpat consequat mauris nunc congue nisi vitae suscipit tellus.
-                        Placerat orci nulla pellentesque dignissim enim sit amet venenatis. Et odio pellentesque diam
-                        volutpat
-                        commodo sed egestas egestas fringilla. Et malesuada fames ac turpis egestas. Aliquam id diam
-                        maecenas
-                        ultricies mi. Habitant morbi tristique senectus et netus et malesuada fames. Tellus elementum
-                        sagittis
-                        vitae et leo.?
+
+
                     </p>
                 </div>
             </div>
@@ -221,8 +223,14 @@
     </section>
 
     <!-- pricing -->
-    <div class="pricing"></div>
+    <div class="pricing">
+        <div class="row-pricing-wrap">
+            <div class="col-full">
 
+            </div>
+        </div>
+    </div>
+    </div>
     <!-- showcase -->
     <div class="showcase"></div>
 
