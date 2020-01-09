@@ -1,2 +1,2 @@
 # UrbanisDetailis
-Html/Css vers of a personnal car washing business of a friend(.
+Simple Webpage for a friend with a car business.    
